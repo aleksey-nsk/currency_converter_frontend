@@ -1,10 +1,10 @@
 angular.module('app', []).controller('indexController', function ($scope, $http) {
 
-    const contextPath = 'http://localhost:8083/api/v1';
-    console.log("contextPath: " + contextPath);
+    const apiPath = 'http://localhost:8082/api/v1';
+    console.log("apiPath: " + apiPath);
 
     $scope.getCurrentRate = function () {
-        const url = contextPath + '/rate';
+        const url = apiPath + '/rate';
         console.log("Method getCurrentRate(), url: " + url);
         $http.get(url)
                 .then(function (resp) {
@@ -22,7 +22,7 @@ angular.module('app', []).controller('indexController', function ($scope, $http)
     };
 
     $scope.getConvertPage = function (pageIndex = 1) {
-        const url = contextPath + '/convert';
+        const url = apiPath + '/convert';
         console.log("Method getConvertPage(), url: " + url);
 
         $http({
@@ -49,7 +49,7 @@ angular.module('app', []).controller('indexController', function ($scope, $http)
     };
 
     $scope.getStatistics = function () {
-        const url = contextPath + '/statistics';
+        const url = apiPath + '/statistics';
         console.log("Method getStatistics(), url: " + url);
         $http.get(url)
                 .then(function (resp) {
@@ -64,7 +64,7 @@ angular.module('app', []).controller('indexController', function ($scope, $http)
     };
 
     $scope.doConvert = function () {
-        const url = contextPath + '/convert';
+        const url = apiPath + '/convert';
         console.log("Method doConvert(), url: " + url);
         console.log($scope.NewConvert);
 

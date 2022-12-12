@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+
+    front:
+        image: nginx:latest
+        container_name: front_nginx
+        ports:
+            - 8099:80
+        volumes:
+            - ./src:/usr/share/nginx/html
