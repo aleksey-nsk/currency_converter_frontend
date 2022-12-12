@@ -5,4 +5,4 @@
 *.ipr
 
 # Other
-/build/src
+/build/html

@@ -8,4 +8,4 @@ services:
         ports:
             - 8099:80
         volumes:
-            - ./src:/usr/share/nginx/html
+            - ./html:/usr/share/nginx/html
