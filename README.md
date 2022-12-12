@@ -4,7 +4,7 @@
 Проект состоит из репозиториев:
 - [Backend](https://github.com/aleksey-nsk/currency_converter_backend)
 - Frontend (данный репозиторий)
-- Deployment
+- [Deployment](https://github.com/aleksey-nsk/currency_converter_deployment)
 
 # Frontend
 
