@@ -10,7 +10,7 @@
 
 1. Фронтенд реализован в виде **SPA**: имеется единственный HTML-файл с вёрсткой, и JS-скрипт
 для динамической подгрузки данных с бэкенда. Использован **AngularJS**.  
-![](https://github.com/aleksey-nsk/currency_converter/blob/master/screenshots/12_01_app_run.png)  
+![](https://github.com/aleksey-nsk/currency_converter_frontend/blob/master/screenshots/12_01_app_run.png)  
 
 2. Используем **NGINX**
 
