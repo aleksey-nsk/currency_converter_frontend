@@ -26,7 +26,7 @@ Project consists of repositories:
    immediately available inside container. This important feature allows us to do development using docker.
    We are making changes to our mounted files and folders, and they are immediately displayed in the container_.
    
-3. First, you nedd to run locally [backend project](https://github.com/aleksey-nsk/currency_converter_backend).
+3. First, you need to run locally [backend project](https://github.com/aleksey-nsk/currency_converter_backend).
    Next, int the frontend project start the nginx-container and open in browser http://localhost:8099/    
    We get the lock associated with **CORS**:    
    ![](https://github.com/aleksey-nsk/currency_converter_frontend/blob/master/screenshots/03_1_cors_error.png)    
