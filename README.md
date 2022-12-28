@@ -31,7 +31,7 @@ Project consists of repositories:
    We get the lock associated with **CORS**:    
    ![](https://github.com/aleksey-nsk/currency_converter_frontend/blob/master/screenshots/03_1_cors_error.png)    
    
-   In order to solve this problem we need to **configure CORS** on backend
+   To solve this problem we need to **configure CORS** on backend
    (look to [backend repository, item 10](https://github.com/aleksey-nsk/currency_converter_backend)).
    
 4. As a result, the running application looks like this:    
