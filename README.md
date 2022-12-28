@@ -17,7 +17,7 @@ Project consists of repositories:
    ![](https://github.com/aleksey-nsk/currency_converter_frontend/blob/master/screenshots/02_1_docker.png)  
 
    _We want to receive and view html-pages using **Web Server**. How can we transfer any
-   html files into container? Volumes will help us with this. The **volumes directive** says, that  
+   html files into container? Volumes will help us with this. The **volumes directive** says, that
    the local **./html** folder mount into container at **/usr/share/nginx/html**. When mounted, the folder
    at the specified address inside the container is replaced by a folder from the local machine_.
 
